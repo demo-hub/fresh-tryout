@@ -1,2 +1,3 @@
-# fresh-tryout
-Test project with fresh
+# Test project with fresh fullstack framework
+
+Check fresh docs: https://fresh.deno.dev/docs/introduction
