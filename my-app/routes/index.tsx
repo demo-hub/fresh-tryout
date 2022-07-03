@@ -1,7 +1,7 @@
 /** @jsx h */
 import { h } from "preact";
 import { tw } from "@twind";
-import Counter from "../islands/Counter.tsx";
+import RandomJoke from "../islands/RandomJoke.tsx";
 
 export default function Home() {
   return (
@@ -12,10 +12,9 @@ export default function Home() {
         alt="the fresh logo: a sliced lemon dripping with juice"
       />
       <p class={tw`my-6`}>
-        Welcome to `fresh`. Try update this message in the ./routes/index.tsx
-        file, and refresh.
+        Welcome to `fresh`. Click the button below to get a joke
       </p>
-      <Counter start={3} />
+      <RandomJoke />
     </div>
   );
 }
